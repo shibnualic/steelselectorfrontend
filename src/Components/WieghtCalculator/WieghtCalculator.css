@@ -1,0 +1,104 @@
+.wieghtcalculation {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.wieghtcalculation-details {
+
+    min-width: 600px;
+}
+
+
+.wieghtcalculation-itemfield {
+    box-sizing: border-box;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: #e8e8e8;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.wieghtcalculation-itemfield input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.wieghtcalculation-itemfield h2 {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.wieghtcalculation-itemfield h4 {
+    color: black;
+    margin: 0px;
+}
+
+.wieghtcalculation-img img {
+    width: 400px;
+    height: auto;
+    margin: 20px 30px;
+}
+
+.wieghtcalculation-img .wieghtcalculation-itemfield {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.wieghtcalculation-selector {
+    padding: 10px 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b8d;
+    border-radius: 4px;
+}
+
+.wieghtcalculation-btn {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wieghtcalculation-rating {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: #e8e8e8;
+}
+
+
+@media(max-width:800px) {
+    .addproduct {
+        width: auto;
+        padding: 30px;
+        margin: 20px 20px;
+    }
+}
